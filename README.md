@@ -50,6 +50,7 @@
 
 - Currently focusing on:
   - **Intermediate Backend Development:** Exploring event-driven ⚡ architecture, file systems, Redis, and 🧩 microservices.
+  - **Learning Next.js and the different methods of building applications: SSR, ISR, SSG, CSR, and much more.
   - **React Optimization:** Improving performance with 🪝 hooks, lazy loading, and advanced state management.
 - Long-term aspiration: To become a professional backend developer with expertise in scalable and secure web solutions.
 
