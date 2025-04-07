@@ -1,6 +1,51 @@
-# About Me
+## 👋 About Me
 
-👋! I'm Richard Tekula, a 28-year-old 💻 enthusiast from 🌍 Bánovce nad Bebravou, Slovakia. My journey into the 🌐 of programming and web/software development started in 📅 February 2024, and ever since, I've been 🤩 by the endless possibilities it offers. I'm particularly drawn to 🛠️ backend development, but I also enjoy working on 🏗️ full-stack projects that combine 🎨 creativity and 🧠 problem-solving.
+```
+public class RichardTekula {
+    private String name;
+    private int age;
+    private String location;
+    private String startDate;
+    private String focus;
+    private String[] interests;
+
+    public RichardTekula() {
+        this.name = "Richard Tekula";
+        this.age = 28;
+        this.location = "Bánovce nad Bebravou, Slovakia";
+        this.startDate = "February 2024";
+        this.focus = "Backend Development";
+        this.interests = new String[]{
+            "Full-stack Web Apps",
+            "Creative UI/UX",
+            "Node.js",
+            "React",
+            "React Native",
+            "Java",
+            "Next.js",
+            "Databases"
+        };
+    }
+
+    public void introduce() {
+        System.out.println("👋 Hi! I'm " + name + ", a passionate " + age +
+                "-year-old full-stack enthusiast from " + location + ".");
+        System.out.println("🧠 I started coding in " + startDate +
+                " and quickly fell in love with web and software development.");
+        System.out.println("🎯 Focus: " + focus);
+        System.out.println("🌟 Interests:");
+        for (String interest : interests) {
+            System.out.println("  - " + interest);
+        }
+    }
+
+    public static void main(String[] args) {
+        RichardTekula richard = new RichardTekula();
+        richard.introduce();
+    }
+}
+
+```
 
 ---
 
