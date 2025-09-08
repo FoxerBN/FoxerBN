@@ -1,139 +1,143 @@
-## 👋 About Me
+# Hi there, I'm Richard 👋
 
-```
-public class RichardTekula {
-    private String name;
-    private int age;
-    private String location;
-    private String startDate;
-    private String focus;
-    private String[] interests;
+**Full-Stack Developer** | **Backend Enthusiast** | **Self-hosted Infrastructure Explorer**
 
-    public RichardTekula() {
-        this.name = "Richard Tekula";
-        this.age = 28;
-        this.location = "Bánovce nad Bebravou, Slovakia";
-        this.startDate = "February 2024";
-        this.focus = "Backend Development";
-        this.interests = new String[]{
-            "Full-stack Web Apps",
-            "Creative UI/UX",
-            "Node.js",
-            "React",
-            "React Native",
-            "Java",
-            "Next.js",
-            "Databases"
-        };
-    }
-
-    public void introduce() {
-        System.out.println("👋 Hi! I'm " + name + ", a passionate " + age +
-                "-year-old full-stack enthusiast from " + location + ".");
-        System.out.println("🧠 I started coding in " + startDate +
-                " and quickly fell in love with web and software development.");
-        System.out.println("🎯 Focus: " + focus);
-        System.out.println("🌟 Interests:");
-        for (String interest : interests) {
-            System.out.println("  - " + interest);
-        }
-    }
-
-    public static void main(String[] args) {
-        RichardTekula richard = new RichardTekula();
-        richard.introduce();
-    }
-}
-
-```
+> *Building robust web applications and exploring cutting-edge technologies since February 2024*
 
 ---
 
-## 🚀 Skills & Interests
+## 🚀 About Me
 
-### 💻 Programming Languages
+I'm a passionate 28-year-old developer from Slovakia who discovered the world of programming in early 2024 and haven't looked back since. What started as curiosity quickly evolved into a deep passion for creating meaningful software solutions.
 
-- **JavaScript** _(Intermediate)_: Actively enhancing my skills.
-    
-- **TypeScript** _(Basic)_: Interested in applying OOP principles and type safety.
-    
-- **HTML & CSS**: Solid foundation with an emphasis on modern, responsive designs.
-    
-
-### 🌐 Backend Development
-
-- **Node.js**: Experienced with Express.js, middleware, logging, debugging, and security best practices.
-    
-- **Authentication**: Proficient in implementing authentication strategies, including third-party integrations.
-    
-- **Databases**: Comfortable with SQL (SQLite) and NoSQL (MongoDB) databases.
-    
-- **Middleware & Security**: Skilled in input validation, error handling, CORS, and security implementations.
-    
-- **File Handling**: Efficiently managing file uploads and downloads.
-    
-- **API Development**: Building robust RESTful APIs and exploring GraphQL.
-    
-- **Frameworks**: Exploring backend frameworks like Fastify and Koa.
-    
-- **Real-time Communication**: Familiar with WebSockets and Socket.IO for real-time applications.
-    
-
-### 🖥️ Frontend Development
-
-- **React.js**: Skilled in state management using Context API and hooks (useRef, useMemo,useCallback, useContext).
-    
-- **UI/UX Enhancements**: Utilizing libraries like React Spring, Framer Motion, and i18next for animations and internationalization.
-    
-- **Next.js**: Familiar with server-side rendering (SSR), static site generation (SSG), incremental static regeneration (ISR), and client-side rendering (CSR).
-    
-
-### 📚 Tools & Technologies
-
-- **Version Control**: Git, experienced with Git flow.
-    
-- **Testing & Debugging**: Proficient with Postman, Insomnia, and creating automated tests.
-    
-- **Build Tools**: Vite for fast and efficient frontend builds.
-    
-
-### 🤖 AI & Emerging Technologies
-
-- Interested in integrating AI capabilities into projects for enhanced functionality and innovation.
-    
-
-### 📱 Mobile Development
-
-- Basic knowledge of mobile application development using React Native and Expo.
-    
-
-### ☕ Java & Spring Boot
-
-- Currently exploring Java fundamentals and Spring Boot framework.
-    
+**Currently focusing on:** Backend development, scalable architectures, and security-first applications  
+**Based in:** Bánovce nad Bebravou, Slovakia  
+**Learning style:** Hands-on project building with a focus on real-world applications
 
 ---
 
-## 🎯 My Goals
+## 💼 Technical Expertise
 
-- Deepen my backend development expertise, particularly with scalable architectures and security.
-    
-- Continue exploring databases, both relational and non-relational.
-    
-- Further my understanding of real-time communication and advanced web technologies.
-    
-- Expand my capabilities with AI integration into practical solutions.
-    
+### Backend Development
+- **Node.js Ecosystem**: Express.js, Fastify, middleware architecture, security implementations
+- **Java Spring Boot**: RESTful APIs, OAuth2 integration, microservices architecture
+- **Python FastAPI**: Microservices, async programming, Docker containerization
+- **Databases**: PostgreSQL, MongoDB, SQLite - from design to optimization
+- **Authentication & Security**: JWT, OAuth2, input validation, CORS, security best practices
+- **Real-time Systems**: WebSockets, Socket.IO for live applications
+
+### Frontend & Mobile
+- **React.js**: Hooks, Context API, state management, performance optimization
+- **Next.js**: SSR, SSG, ISR - full-stack React applications
+- **React Native & Expo**: Cross-platform mobile development
+- **UI/UX**: Modern, responsive designs with attention to user experience
+
+### Infrastructure & Tools
+- **Self-hosted Services**: Running 5+ services locally on Raspberry Pi
+  - Jellyfin (Media Server)
+  - Pi-hole (Network-wide Ad Blocking)
+  - Gogs (Self-hosted Git Service)
+  - Additional monitoring and utility services
+- **DevOps**: Docker, Git flow, automated testing
+- **Development Tools**: Postman, Insomnia, Vite, comprehensive debugging
 
 ---
 
-## 🤝 Connect with Me
+## 🏗️ Featured Projects
 
-- **GitHub**: [FoxerBN](https://github.com/FoxerBN)
-    
-- **LinkedIn**: [Richard Tekula](https://www.linkedin.com/in/richard-tekula-957b74326/)
-    
-- **Email**: [barspin4499@gmail.com](mailto:barspin4499@gmail.com)
-    
+### 🧠 [MemryX Backend](https://github.com/FoxerBN/memryx-backend)
+Robust backend service for memory management application with advanced data processing and API architecture.
 
-Feel free to reach out for collaboration, feedback, or just a friendly chat about technology! Let's create something amazing together! ✨
+**Tech Stack:** Node.js, Express, Database Management, API Development
+
+### 🎨 [MemryX Frontend](https://github.com/FoxerBN/memryx-frontend)
+Modern, responsive frontend application with intuitive user interface and seamless user experience.
+
+**Tech Stack:** React, TypeScript, Modern UI/UX Patterns
+
+### 🚀 [Back-EX - Backend Starter](https://github.com/FoxerBN/back-ex)
+Modular Express.js starter template with configurable options for MongoDB, Cloudinary, and authentication systems.
+
+**Tech Stack:** Node.js, Express, JWT Authentication, Modular Architecture
+
+### 🤖 [Discord Bot](https://github.com/FoxerBN/discord-bot)
+Advanced Discord bot with slash commands, interactive features, and dynamic command loading capabilities.
+
+**Tech Stack:** TypeScript, Discord.js, Modular Command System
+
+### 🖼️ [Fyltr - Image Converter](https://github.com/FoxerBN/fyltr)
+User-friendly desktop app for converting PNG and JPG images to efficient WEBP format with drag-and-drop interface and batch processing.
+
+**Tech Stack:** Python, Desktop GUI, Image Processing, Batch Conversion
+
+### 🔐 [Onepas - Password Manager](https://github.com/FoxerBN/onepass)
+Secure password manager built with React Native and Expo featuring biometric authentication, encrypted storage, and intuitive UX.
+
+**Tech Stack:** React Native, Expo, Secure Storage, Biometric Authentication
+
+### 🏫 [School Management API](https://github.com/FoxerBN/school)
+Comprehensive RESTful API for educational institutions with user management, authentication, and data validation.
+
+**Tech Stack:** Node.js, Express, PostgreSQL, JWT, Zod Validation
+
+---
+
+## 🎯 Current Focus & Goals
+
+- **🔧 Deep-diving into:** Advanced backend architectures and distributed systems
+- **🧠 Exploring:** AI integration in practical applications and automation
+- **📱 Expanding:** Mobile development capabilities and cross-platform solutions
+- **🏗️ Building:** Self-hosted infrastructure and learning DevOps practices
+- **🔒 Mastering:** Security patterns and scalable authentication systems
+
+---
+
+## 🛠️ Development Philosophy
+
+I believe in **learning by building**. Every project in my portfolio represents a real problem I've solved or a technology I've wanted to master. I focus on:
+
+- **Security-first development** with proper authentication and input validation
+- **Clean, maintainable code** that other developers can understand and extend
+- **User-centric design** that prioritizes functionality and user experience
+- **Continuous learning** through experimentation with new technologies
+
+---
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FoxerBN&show_icons=true&theme=dark&count_private=true)
+
+**Primary Technologies:**
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+
+---
+
+## 🤝 Let's Connect
+
+I'm always interested in discussing technology, sharing knowledge, or exploring collaboration opportunities.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://foxerbn.github.io/sk/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/richard-tekula-957b74326/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FoxerBN)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:barspin4499@gmail.com)
+
+---
+
+*"The best way to predict the future is to implement it."* ⚡
+
+---
+
+### 🔍 Quick Facts
+- 📚 Self-taught developer with 1.5+ years of intensive learning
+- 🏠 Running personal Raspberry Pi server cluster
+- 🌍 Building applications used by real users
+- 🚀 Always working on something new - check my recent commits!
+
+<!--
+**FoxerBN/FoxerBN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+-->
