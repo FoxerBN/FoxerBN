@@ -1,143 +1,316 @@
 # Hi there, I'm Richard 👋
 
-**Full-Stack Developer** | **Backend Enthusiast** | **Self-hosted Infrastructure Explorer**
+**Full-Stack Developer @ Slovak Tech Company** | **AI & Backend Specialist** | **Self-Hosting Enthusiast**
 
-> *Building robust web applications and exploring cutting-edge technologies since February 2024*
+> _Building production-ready applications with modern tech stacks • 20+ projects • AI integrations • Microservices architecture_
 
 ---
 
 ## 🚀 About Me
 
-I'm a passionate 28-year-old developer from Slovakia who discovered the world of programming in early 2024 and haven't looked back since. What started as curiosity quickly evolved into a deep passion for creating meaningful software solutions.
+28-year-old Full-Stack Developer from Slovakia, currently working for a **Slovak tech company in Bratislava** developing CRM systems, AI chatbots, and workflow automation. Started programming in February 2024 and rapidly evolved into building production-ready applications used by real users.
 
-**Currently focusing on:** Backend development, scalable architectures, and security-first applications  
-**Based in:** Bánovce nad Bebravou, Slovakia  
-**Learning style:** Hands-on project building with a focus on real-world applications
+### 💼 What I Do:
+- 🏢 **Full-Stack Development** - CRM systems, AI integrations, real-time applications
+- 🤖 **AI Engineering** - OpenAI API, vector databases (ChromaDB, Pinecone), semantic search
+- 🐳 **DevOps** - Docker, microservices, self-hosting on Raspberry Pi
+- 🔒 **Security** - JWT, OAuth2, API security best practices
 
 ---
 
 ## 💼 Technical Expertise
 
-### Backend Development
-- **Node.js Ecosystem**: Express.js, Fastify, middleware architecture, security implementations
-- **Java Spring Boot**: RESTful APIs, OAuth2 integration, microservices architecture
-- **Python FastAPI**: Microservices, async programming, Docker containerization
-- **Databases**: PostgreSQL, MongoDB, SQLite - from design to optimization
-- **Authentication & Security**: JWT, OAuth2, input validation, CORS, security best practices
-- **Real-time Systems**: WebSockets, Socket.IO for live applications
+### 🔥 Backend Development
+```
+├─ Java          → Spring Boot, JPA/Hibernate, Maven, Spring Security, JUnit
+├─ Python        → FastAPI, Flask, SQLAlchemy, Pytest, Pydantic, Uvicorn/Gunicorn
+├─ Node.js       → Express.js, Koa, Fastify, Socket.io, Jest, Supertest
+└─ Architecture  → RESTful APIs, Microservices, MVC, Clean Architecture
+```
 
-### Frontend & Mobile
-- **React.js**: Hooks, Context API, state management, performance optimization
-- **Next.js**: SSR, SSG, ISR - full-stack React applications
-- **React Native & Expo**: Cross-platform mobile development
-- **UI/UX**: Modern, responsive designs with attention to user experience
+### 🗄️ Databases & Storage
+```
+├─ SQL           → PostgreSQL, MySQL, SQLite (Query optimization, Indexing)
+├─ NoSQL         → MongoDB (Document databases, Aggregation pipelines)
+├─ Vector DBs    → ChromaDB, Pinecone, Qdrant (Embeddings, Semantic search)
+└─ ORMs          → Hibernate, SQLAlchemy, Prisma, TypeORM
+```
 
-### Infrastructure & Tools
-- **Self-hosted Services**: Running 5+ services locally on Raspberry Pi
-  - Jellyfin (Media Server)
-  - Pi-hole (Network-wide Ad Blocking)
-  - Gogs (Self-hosted Git Service)
-  - Additional monitoring and utility services
-- **DevOps**: Docker, Git flow, automated testing
-- **Development Tools**: Postman, Insomnia, Vite, comprehensive debugging
+### 🤖 AI & Machine Learning
+```
+├─ LLM Integration  → OpenAI API , Embeddings, Function calling)
+├─ Vector Search    → ChromaDB, Pinecone, semantic similarity, RAG architecture
+├─ Workflows        → Custom AI pipelines, prompt engineering, context management
+└─ Use Cases        → Chatbots, semantic search, data extraction, automation
+```
+
+### ⚡ Frontend & Mobile
+```
+├─ React Ecosystem → Next.js (SSR/SSG), React Native, Expo, TailwindCSS
+├─ Core Tech       → TypeScript, JavaScript (ES6+), HTML5, CSS3, SCSS
+├─ State Mgmt      → Context API, Zustand, React Query
+└─ UI/UX           → Responsive Design, Mobile-First, Accessibility
+```
+
+### 🛠️ DevOps & Infrastructure
+```
+├─ Containerization → Docker (Multi-stage builds, Docker Compose, Volumes)
+├─ Automation       → n8n (Workflow automation, 50+ integrations)
+├─ Self-Hosting     → Raspberry Pi 5 (5+ prod services)
+├─ OS               → Linux user (Ubuntu, Pop OS, Arch, Zorin OS)
+└─ CI/CD            → GitHub Actions basics, automated testing
+```
+
+### 🔒 Security & Authentication
+```
+├─ Protocols    → JWT, OAuth2, Session management, Refresh tokens
+├─ Encryption   → Bcrypt, AES-256, SSL/TLS, Secure storage
+├─ Best Practice → HTTPS, CORS, Rate limiting, Input validation, SQL injection prevention
+└─ Tools        → Passport.js, Spring Security, Custom middleware
+```
+
+### 🌐 Real-Time & Networking
+```
+├─ WebSockets  → Socket.io, Native WebSocket API, Bidirectional communication
+├─ Protocols   → HTTP/HTTPS, REST API design, Server-Sent Events
+└─ Use Cases   → Live chat, real-time notifications, collaborative editing
+```
 
 ---
 
 ## 🏗️ Featured Projects
 
-### 🧠 [MemryX Backend](https://github.com/FoxerBN/memryx-backend)
-Robust backend service for memory management application with advanced data processing and API architecture.
+### 🐍 [Python Microservices](https://github.com/FoxerBN/python-services)
+**Modular FastAPI microservices architecture with Docker orchestration**
 
-**Tech Stack:** Node.js, Express, Database Management, API Development
+3 independent services (User Management, Order Processing, Stock Inventory) with separate databases, REST APIs, JWT auth, and health checks. Production-ready boilerplate for e-commerce/logistics systems.
 
-### 🎨 [MemryX Frontend](https://github.com/FoxerBN/memryx-frontend)
-Modern, responsive frontend application with intuitive user interface and seamless user experience.
-
-**Tech Stack:** React, TypeScript, Modern UI/UX Patterns
-
-### 🚀 [Back-EX - Backend Starter](https://github.com/FoxerBN/back-ex)
-Modular Express.js starter template with configurable options for MongoDB, Cloudinary, and authentication systems.
-
-**Tech Stack:** Node.js, Express, JWT Authentication, Modular Architecture
-
-### 🤖 [Discord Bot](https://github.com/FoxerBN/discord-bot)
-Advanced Discord bot with slash commands, interactive features, and dynamic command loading capabilities.
-
-**Tech Stack:** TypeScript, Discord.js, Modular Command System
-
-### 🖼️ [Fyltr - Image Converter](https://github.com/FoxerBN/fyltr)
-User-friendly desktop app for converting PNG and JPG images to efficient WEBP format with drag-and-drop interface and batch processing.
-
-**Tech Stack:** Python, Desktop GUI, Image Processing, Batch Conversion
-
-### 🔐 [Onepas - Password Manager](https://github.com/FoxerBN/onepass)
-Secure password manager built with React Native and Expo featuring biometric authentication, encrypted storage, and intuitive UX.
-
-**Tech Stack:** React Native, Expo, Secure Storage, Biometric Authentication
-
-### 🏫 [School Management API](https://github.com/FoxerBN/school)
-Comprehensive RESTful API for educational institutions with user management, authentication, and data validation.
-
-**Tech Stack:** Node.js, Express, PostgreSQL, JWT, Zod Validation
+**Tech:** FastAPI, Docker, PostgreSQL, SQLAlchemy, JWT
+**Highlights:** Database-per-service pattern, Swagger docs, Background tasks
 
 ---
 
-## 🎯 Current Focus & Goals
+### 🤖 [AI Portfolio Chatbot](https://github.com/FoxerBN/my-chatbot)
+**Intelligent assistant powered by OpenAI GPT-4** • [🔴 Live Demo](https://my-chatty.streamlit.app)
 
-- **🔧 Deep-diving into:** Advanced backend architectures and distributed systems
-- **🧠 Exploring:** AI integration in practical applications and automation
-- **📱 Expanding:** Mobile development capabilities and cross-platform solutions
-- **🏗️ Building:** Self-hosted infrastructure and learning DevOps practices
-- **🔒 Mastering:** Security patterns and scalable authentication systems
+AI chatbot answering questions about my portfolio with vector database integration, auto-cleanup (1h expiration), content safety filters, and production deployment ready.
+
+**Tech:** Flask, OpenAI API, ChromaDB, SQLAlchemy, Gunicorn
+**Highlights:** RAG architecture, CORS-enabled API, Automated maintenance
+
+---
+
+### 🏫 [School Management API](https://github.com/FoxerBN/school-manager)
+**RESTful API deployed on Railway** • [🌐 API Docs](https://school-api.railway.app)
+
+Complete school system API with JWT authentication, Zod validation, PostgreSQL relations (1:N, N:M), and custom frontend tester.
+
+**Tech:** Node.js, Express, PostgreSQL, Zod, JWT
+**Highlights:** Production deployment, Type-safe validation, API documentation
+
+---
+
+### 🗣️ [MCP Server](https://github.com/FoxerBN/mcp-server)
+**Vector + SQL database toolkit with unified REST API**
+
+Tools for working with ChromaDB (vector search, embeddings) and PostgreSQL (complex queries, migrations). Enables semantic search and batch operations.
+
+**Tech:** Python, ChromaDB, PostgreSQL, FastAPI
+**Highlights:** OpenAI embeddings, Batch operations, Unified API
+
+---
+
+### 💬 [Live Support Chat](https://github.com/FoxerBN/live-support-chat)
+**Real-time messaging with WebSocket communication**
+
+1-on-1 private rooms, email invitations via SendGrid, typing indicators, online status, and message persistence.
+
+**Tech:** React, Socket.io, Express, SendGrid
+**Highlights:** Bidirectional real-time, Room readiness logic, Auto notifications
+
+---
+
+### 📋 [Resume Checker](https://github.com/FoxerBN/resume-checker)
+**AI-powered CV analysis with n8n automation**
+
+Email-triggered workflow analyzing resumes against job descriptions using OpenAI, scoring 0-100, and sending results to Discord.
+
+**Tech:** n8n, FastAPI, OpenAI API, Discord Webhooks
+**Highlights:** 90% time saved, PDF parsing, Customizable criteria
+
+---
+
+### 🚀 [Back-EX Starter](https://github.com/FoxerBN/back-ex)
+**Modular Express.js boilerplate** • ⏱️ 15 min to production
+
+Choose JS/TS, MongoDB, Cloudinary, JWT auth. Clean architecture with controllers, services, models. Saves 5-10 hours on new projects.
+
+**Tech:** Express/TypeScript, MongoDB, Cloudinary, JWT
+**Highlights:** Joi/Zod validation, Environment config, Security middleware
+
+---
+
+### 🔐 [Onepas Password Manager](https://github.com/FoxerBN/onepas)
+**Mobile app with enterprise-grade security**
+
+Biometric auth (Face ID, Touch ID), AES-256 encryption, custom decryption password, SQLite offline storage, 200+ icon picker.
+
+**Tech:** React Native, Expo, SQLite, Crypto
+**Highlights:** Auto-lock timeout, Encrypted backups, Offline-first
+
+---
+
+### 🔑 [Login Template](https://github.com/FoxerBN/nextauth-template)
+**Next.js auth boilerplate with social login**
+
+Google, Discord, Facebook, GitHub OAuth via NextAuth.js. Supabase integration, protected routes, role-based access control.
+
+**Tech:** Next.js, NextAuth.js, Supabase, OAuth2
+**Highlights:** 1-click auth, Extensible roles, Session management
+
+---
+
+### ☕ [Java Auth](https://github.com/FoxerBN/java-auth)
+**Spring Boot + React OAuth2 starter**
+
+Google OAuth2 login, JWT token generation, secure API calls. Easily extensible for more providers.
+
+**Tech:** Spring Boot, React, OAuth2, JWT
+**Highlights:** Refresh tokens, CORS configured, Clean separation
+
+---
+
+### 🎮 [Discord Bot](https://github.com/FoxerBN/discord-bot)
+**Advanced bot with 500+ users served**
+
+Slash commands, polls, server rules, member count, Q&A system. Dynamic command loading, event handling.
+
+**Tech:** TypeScript, Discord.js, SQLite
+**Highlights:** 10,000+ commands executed, Modular architecture, Auto-posting
+
+---
+
+### 📧 [EmailSender](https://github.com/FoxerBN/email-sender)
+**Spring Boot mailer with 1,000+ emails sent**
+
+Automated motivational quotes via SendGrid, zenquotes.io API, scheduled 2×/day, Thymeleaf templates.
+
+**Tech:** Spring Boot, SendGrid API, Thymeleaf
+**Highlights:** Zero downtime, Retry logic, Dynamic recipients
+
+---
+
+<details>
+<summary><b>📦 More Projects (6+)</b></summary>
+
+- **fyltr** - Image converter (PNG/JPEG → WebP) with quality control
+- **Ambient Simulator** - Smart home simulator (Java Swing, energy tracking)
+- **Web Scraper** - Customizable Python scraper with HTML UI
+- **Memryx Backend** - Flashcard app with smooth animations
+- **Yokai Backend** - Japanese folklore blog with admin dashboard
+- **Graffpy Backend** - Raspberry Pi real-time data logger
+
+</details>
+
+---
+
+## 🎯 Current Focus & Learning Goals
+
+### 🎓 Skills to Master
+- **AI/ML:** Fine-tuning LLMs, advanced prompt engineering, vector embeddings
+- **Backend:** Event-driven architecture, message queues (RabbitMQ, Kafka)
+- **DevOps:** Kubernetes, Terraform, CI/CD pipelines, monitoring (Prometheus, Grafana)
+- **Database:** Advanced query optimization, replication, sharding strategies
 
 ---
 
 ## 🛠️ Development Philosophy
 
-I believe in **learning by building**. Every project in my portfolio represents a real problem I've solved or a technology I've wanted to master. I focus on:
+### Core Principles:
+- **Build Real Solutions** - Every project solves actual problems, not just tutorials
+- **Security-First** - JWT, OAuth2, input validation, HTTPS by default
+- **Production-Ready** - Code that's deployable, scalable, and maintainable
+- **Learn by Doing** - Master technologies through hands-on projects
+- **Clean Code** - Readable, documented, testable, extensible
 
-- **Security-first development** with proper authentication and input validation
-- **Clean, maintainable code** that other developers can understand and extend
-- **User-centric design** that prioritizes functionality and user experience
-- **Continuous learning** through experimentation with new technologies
+### What I Believe:
+> *"The best way to learn is to build something people actually use."*
+
+Every line of code I write aims to:
+- 🔒 Be **secure** (validation, sanitization, auth)
+- ⚡ Perform **efficiently** (optimized queries, caching)
+- 📚 Stay **maintainable** (clean architecture, documentation)
+- 🧪 Be **testable** (unit tests, integration tests)
+- 🚀 Scale **gracefully** (stateless design, horizontal scaling)
 
 ---
 
 ## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FoxerBN&show_icons=true&theme=dark&count_private=true)
+<div align="center">
 
-**Primary Technologies:**
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=FoxerBN&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0D1117)
+
+</div>
+
+### 🛠️ Tech Stack Badges
+
+**Backend:**
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+
+**Languages:**
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+**Frontend:**
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**Databases:**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square&logo=database&logoColor=white)
+
+**DevOps & Tools:**
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white)
 
 ---
 
-## 🤝 Let's Connect
+## 📫 Let's Connect!
 
-I'm always interested in discussing technology, sharing knowledge, or exploring collaboration opportunities.
+Vždy rád diskutujem o technológiách, zdieľam skúsenosti alebo spolupracujem na zaujímavých projektoch.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://foxerbn.github.io/sk/)
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logoColor=white)](https://richard-tekula.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/richard-tekula-957b74326/)
+[![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logoColor=white)](mailto:richard.tekula@protonmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FoxerBN)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:barspin4499@gmail.com)
+
+</div>
 
 ---
 
-*"The best way to predict the future is to implement it."* ⚡
+<div align="center">
+
+### 💡 *"The best code is the code that solves real problems."*
+
+**Thanks for visiting!** ⭐ Star my repos if you find them helpful!
+
+</div>
 
 ---
-
-### 🔍 Quick Facts
-- 📚 Self-taught developer with 1.5+ years of intensive learning
-- 🏠 Running personal Raspberry Pi server cluster
-- 🌍 Building applications used by real users
-- 🚀 Always working on something new - check my recent commits!
 
 <!--
 **FoxerBN/FoxerBN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
+
