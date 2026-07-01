@@ -1,18 +1,26 @@
+
 # Hi there, I'm Richard 👋
 
-**Full-Stack Developer @ Slovak Tech Company** | **AI & Backend Specialist** | **Self-Hosting Enthusiast**
+**Backend Developer @ AGEL** | **Full-Stack Developer** | **AI & Backend Specialist** | **Self-Hosting Enthusiast**
 
-> _Building production-ready applications with modern tech stacks • 20+ projects • AI integrations • Microservices architecture_
+> _Building production-ready applications with modern tech stacks • 20+ projects • AI integrations • Microservices architecture • Game development_
 
 ---
 
 ## 🚀 About Me
 
-28-year-old Full-Stack Developer from Slovakia, currently working for a **Slovak tech company in Bratislava** developing CRM systems, AI chatbots, and workflow automation. Started programming in February 2024 and rapidly evolved into building production-ready applications used by real users.
+28-year-old Full-Stack / Backend Developer from Slovakia, currently working for **AGEL as a Backend Developer** since **February 2026**, focused mainly on **Java** and **Groovy** backend development.
+
+I also build CRM systems, AI chatbots, workflow automation, internal tools, and production-ready backend services. Started programming in February 2024 and rapidly evolved into building applications used by real users.
+
+Recently, I have also been focusing more on **Golang**, backend systems, in-memory databases, and **game development with Godot**.
 
 ### 💼 What I Do:
-- 🏢 **Full-Stack Development** - CRM systems, AI integrations, real-time applications
+- 🏢 **Backend Development** - Java, Groovy, APIs, business logic, internal systems
+- 🧩 **Full-Stack Development** - CRM systems, AI integrations, real-time applications
 - 🤖 **AI Engineering** - OpenAI API, vector databases (ChromaDB, Pinecone), semantic search
+- 🧠 **Golang** - TCP servers, concurrency, in-memory systems, backend tooling
+- 🎮 **Game Development** - Godot, GDScript, 2D platformers, gameplay systems
 - 🐳 **DevOps** - Docker, microservices, self-hosting on Raspberry Pi
 - 🔒 **Security** - JWT, OAuth2, API security best practices
 
@@ -21,39 +29,50 @@
 ## 💼 Technical Expertise
 
 ### 🔥 Backend Development
-```
+```txt
 ├─ Java          → Spring Boot, JPA/Hibernate, Maven, Spring Security, JUnit
+├─ Groovy        → Backend development, business logic, JVM ecosystem
 ├─ Python        → FastAPI, Flask, SQLAlchemy, Pytest, Pydantic, Uvicorn/Gunicorn
 ├─ Node.js       → Express.js, Koa, Fastify, Socket.io, Jest, Supertest
+├─ Go            → TCP servers, Goroutines, sync.RWMutex, in-memory systems
 └─ Architecture  → RESTful APIs, Microservices, MVC, Clean Architecture
 ```
 
 ### 🗄️ Databases & Storage
-```
+```txt
 ├─ SQL           → PostgreSQL, MySQL, SQLite (Query optimization, Indexing)
 ├─ NoSQL         → MongoDB (Document databases, Aggregation pipelines)
 ├─ Vector DBs    → ChromaDB, Pinecone, Qdrant (Embeddings, Semantic search)
+├─ In-Memory     → Redis-like systems, Key-value stores, Concurrent storage
 └─ ORMs          → Hibernate, SQLAlchemy, Prisma, TypeORM
 ```
 
 ### 🤖 AI & Machine Learning
-```
-├─ LLM Integration  → OpenAI API , Embeddings, Function calling)
+```txt
+├─ LLM Integration  → OpenAI API, Embeddings, Function calling
 ├─ Vector Search    → ChromaDB, Pinecone, semantic similarity, RAG architecture
 ├─ Workflows        → Custom AI pipelines, prompt engineering, context management
 └─ Use Cases        → Chatbots, semantic search, data extraction, automation
 ```
 
 ### ⚡ Frontend & Mobile
-```
+```txt
 ├─ React Ecosystem → Next.js (SSR/SSG), React Native, Expo, TailwindCSS
 ├─ Core Tech       → TypeScript, JavaScript (ES6+), HTML5, CSS3, SCSS
 ├─ State Mgmt      → Context API, Zustand, React Query
 └─ UI/UX           → Responsive Design, Mobile-First, Accessibility
 ```
 
-### 🛠️ DevOps & Infrastructure
+### 🎮 Game Development
+```txt
+├─ Engine        → Godot
+├─ Language      → GDScript
+├─ Game Type     → 2D platformers, level-based gameplay
+└─ Systems       → Player movement, combat, quests, NPCs, UI, collectibles
 ```
+
+### 🛠️ DevOps & Infrastructure
+```txt
 ├─ Containerization → Docker (Multi-stage builds, Docker Compose, Volumes)
 ├─ Automation       → n8n (Workflow automation, 50+ integrations)
 ├─ Self-Hosting     → Raspberry Pi 5 (5+ prod services)
@@ -62,7 +81,7 @@
 ```
 
 ### 🔒 Security & Authentication
-```
+```txt
 ├─ Protocols    → JWT, OAuth2, Session management, Refresh tokens
 ├─ Encryption   → Bcrypt, AES-256, SSL/TLS, Secure storage
 ├─ Best Practice → HTTPS, CORS, Rate limiting, Input validation, SQL injection prevention
@@ -70,8 +89,9 @@
 ```
 
 ### 🌐 Real-Time & Networking
-```
+```txt
 ├─ WebSockets  → Socket.io, Native WebSocket API, Bidirectional communication
+├─ Networking  → TCP servers, Line-based protocols, Concurrent client handling
 ├─ Protocols   → HTTP/HTTPS, REST API design, Server-Sent Events
 └─ Use Cases   → Live chat, real-time notifications, collaborative editing
 ```
@@ -79,6 +99,36 @@
 ---
 
 ## 🏗️ Featured Projects
+
+### 🎮 [Samurai Revenge](https://github.com/FoxerBN/samurai-revenge)
+**2D platformer game built in Godot**
+
+My first game development project created in Godot. The player controls a samurai, moves through levels, fights enemies, collects coins, completes quests, interacts with NPCs, and unlocks portals.
+
+**Tech:** Godot, GDScript
+**Highlights:** Player movement, sword combat, quest system, NPC dialogs, collectibles, portals, multi-level flow
+
+---
+
+### ⚡ [BlinkDB](https://github.com/FoxerBN/BlinkDB)
+**Redis-inspired in-memory key-value server written in Go**
+
+Lightweight educational TCP key-value server built from scratch to learn Go networking, goroutines, concurrency-safe storage, simple text protocols, Docker builds, and basic load testing.
+
+**Tech:** Go, TCP, Docker, Goroutines, sync.RWMutex
+**Highlights:** Redis-like commands, In-memory storage, One goroutine per client, Line-based protocol
+
+---
+
+### 🍋 [lemonDB](https://github.com/FoxerBN/lemonDB)
+**Lightweight schema-aware CSV database for Python**
+
+Small Python database package using CSV as storage. Supports schema validation, auto-increment IDs, simple CRUD operations, and zero external dependencies.
+
+**Tech:** Python, CSV
+**Highlights:** Schema validation, Auto-increment IDs, Simple CRUD operations, Zero dependencies
+
+---
 
 ### 🐍 [Python Microservices](https://github.com/FoxerBN/python-services)
 **Modular FastAPI microservices architecture with Docker orchestration**
@@ -216,7 +266,15 @@ Automated motivational quotes via SendGrid, zenquotes.io API, scheduled 2×/day,
 
 ## 🎯 Current Focus & Learning Goals
 
+### 🎯 Current Focus
+- **Golang:** TCP servers, goroutines, concurrency, in-memory systems, backend tooling
+- **Game Development:** Godot, GDScript, 2D platformers, gameplay loops, quest systems
+- **Backend Engineering:** Java/Groovy backend development, APIs, internal systems
+- **AI Systems:** RAG architecture, vector search, semantic search, AI automation
+
 ### 🎓 Skills to Master
+- **Golang:** Advanced concurrency, testing, profiling, production backend services
+- **Game Dev:** Level design, enemy AI, animation, game state, export pipelines
 - **AI/ML:** Fine-tuning LLMs, advanced prompt engineering, vector embeddings
 - **Backend:** Event-driven architecture, message queues (RabbitMQ, Kafka)
 - **DevOps:** Kubernetes, Terraform, CI/CD pipelines, monitoring (Prometheus, Grafana)
@@ -260,12 +318,15 @@ Every line of code I write aims to:
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Groovy](https://img.shields.io/badge/Groovy-4298B8?style=flat-square&logo=apachegroovy&logoColor=white)
 
 **Languages:**
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=flat-square&logo=godotengine&logoColor=white)
 
 **Frontend:**
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -275,7 +336,13 @@ Every line of code I write aims to:
 **Databases:**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square&logo=database&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis_Concepts-FF4438?style=flat-square&logo=redis&logoColor=white)
+
+**Game Development:**
+![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white)
+![Game Development](https://img.shields.io/badge/Game_Development-222222?style=flat-square&logo=gamemaker&logoColor=white)
 
 **DevOps & Tools:**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -291,7 +358,7 @@ Vždy rád diskutujem o technológiách, zdieľam skúsenosti alebo spolupracuje
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logoColor=white)](https://richard-tekula.vercel.app)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-000000?style=for-the-badge&logoColor=white)](https://richtek.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/richard-tekula-957b74326/)
 [![Email](https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logoColor=white)](mailto:richard.tekula@protonmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FoxerBN)
@@ -309,8 +376,4 @@ Vždy rád diskutujem o technológiách, zdieľam skúsenosti alebo spolupracuje
 </div>
 
 ---
-
-<!--
-**FoxerBN/FoxerBN** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
 
